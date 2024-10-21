@@ -1,0 +1,52 @@
+[
+  {
+    "id": "001",
+    "cover": "https://example.com/cover001.jpg",
+    "title": "The Secrets of the Ocean",
+    "author": "Alice Green",
+    "author_img": "https://example.com/author001.jpg",
+    "posted_date": "2024-05-14",
+    "reading_time": 6,
+    "hastags": ["#ocean", "#nature", "#wildlife"]
+  },
+  {
+    "id": "002",
+    "cover": "https://example.com/cover002.jpg",
+    "title": "The Rise of AI",
+    "author": "Bob Thompson",
+    "author_img": "https://example.com/author002.jpg",
+    "posted_date": "2024-09-18",
+    "reading_time": 9,
+    "hastags": ["#AI", "#technology", "#future"]
+  },
+  {
+    "id": "003",
+    "cover": "https://example.com/cover003.jpg",
+    "title": "Tales from the Forest",
+    "author": "Catherine Holt",
+    "author_img": "https://example.com/author003.jpg",
+    "posted_date": "2024-07-20",
+    "reading_time": 7,
+    "hastags": ["#nature", "#environment", "#adventure"]
+  },
+  {
+    "id": "004",
+    "cover": "https://example.com/cover004.jpg",
+    "title": "The Future of Travel",
+    "author": "David Lee",
+    "author_img": "https://example.com/author004.jpg",
+    "posted_date": "2024-10-05",
+    "reading_time": 11,
+    "hastags": ["#travel", "#innovation", "#exploration"]
+  },
+  {
+    "id": "005",
+    "cover": "https://example.com/cover005.jpg",
+    "title": "Living Green: A Sustainable Guide",
+    "author": "Elena Perez",
+    "author_img": "https://example.com/author005.jpg",
+    "posted_date": "2024-08-02",
+    "reading_time": 8,
+    "hastags": ["#sustainability", "#lifestyle", "#environment"]
+  }
+]
