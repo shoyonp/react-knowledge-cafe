@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
-const Blog = ({ blog }) => {
+import { FaBookmark } from "react-icons/fa";
+const Blog = ({ blog, handleAddToBookmark }) => {
   const {
     title,
     cover,
@@ -10,18 +11,25 @@ const Blog = ({ blog }) => {
     hastags,
   } = blog;
   return (
-    <div>
-      <img src={cover} alt={`Cover picture of the title ${title}`} />
-      <div className="flex justify-between">
-        <div className="flex">
+    <div className="mb-20">
+      <img
+        className="w-full mb-8"
+        src={cover}
+        alt={`Cover picture of the title ${title}`}
+      />
+      <div className="flex justify-between mb-4 items-center">
+        <div className="flex items-center">
           <img className="w-14" src={author_img} alt="" />
           <div className="ml-6">
             <h3 className="text-2xl">{author}</h3>
             <p>{posted_date}</p>
           </div>
         </div>
-        <div>
+        <div className="flex items-center">
           <span>{reading_time} min read</span>
+          <button onClick={handleAddToBookmark} className="ml-2 text-red-600 text-2xl">
+            <FaBookmark></FaBookmark>
+          </button>
         </div>
       </div>
       <h2 className="text-4xl">{title}</h2>
